@@ -13,7 +13,7 @@ public class DevOpsApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Timber.uprootAll(); // remove in dev builds to see logs written by module creation
+        Timber.uprootAll();
         instance = this;
         objectGraph = ObjectGraph.create(getModules());
         inject(this);
