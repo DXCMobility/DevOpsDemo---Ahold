@@ -7,6 +7,6 @@
     <string name="action_settings">Settings Test</string>
 
     <string name="user_name">Ahold</string>
-    <string name="user_email">devopsuser@ahold.com</string>
+    <string name="user_email">devopsuser@ahold.com</string> 
 
 </resources>
