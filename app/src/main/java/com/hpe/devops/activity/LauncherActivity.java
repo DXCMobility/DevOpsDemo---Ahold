@@ -35,6 +35,8 @@ public class LauncherActivity extends AppCompatActivity
 
         View offerContainer = findViewById(R.id.container_offer);
         offerContainer.setOnClickListener(this);
+        
+        // Testing..
     }
 
     @Override
